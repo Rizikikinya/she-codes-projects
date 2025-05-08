@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+       .gallery {
+      display: grid;
+      
+      grid-gap: 20px;
+      grid-template-rows:auto auto auto ;
+       }
+       .gallery img{
+        border-radius: 10px;
+       }
+       .gallery img:hover{
+        transform: scale(1.);
+        cursor: pointer;
+
+       }
+       .dark{
+background-color: black;
+
+       }
+       .dark.container{
+        background-color: grey;
+        color: blueviolet;
+       }
+
+
+      
+      
+
+
+        
+    </style>
+</head>
+<body class="">
+    <button class="theme">Dark Theme</button>
+   <div class="container">
+    <h1><strong>Get ready for adventure</strong></h1>
+    <h2><em> My hobby favouroto</em></h2>
+    <img
+      src="data:image/jpeg;base64,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"
+   class="head" ></img>
+    <p>
+      I am just the girl💋💋 I am just the girl next door, but I'm not the one who locks herself inside her house all day and night. No, I'm the girl you rarely see because I'm always out and about, exploring the world and enjoying nature. Isn't it beautiful? This world that the Lord has made! I have three words to describe it: WOW! WOW! AND WOW!
+     </p>
+     <div class="gallery">
+      <img src="https://images.unsplash.com/photo-1741732311554-911ecc8da478?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxmZWF0dXJlZC1waG90b3MtZmVlZHwyOHx8fGVufDB8fHx8fA%3D%3D" width="200px" height="200px"/>
+    <img
+      src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/163/185/original/IMG_20200924_114158_1.jpg?1744709213"
+    width="200px" height="200px"/>
+    <img
+      src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/163/181/original/IMG-20191108-WA0026.jpg?1744709114"
+    width="200px" height="200px"/>
+    <img
+      src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/163/182/original/IMG-20191203-WA0001.jpg?1744709129"
+    width="200px" height="200px"/>
+    <img
+      src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/163/183/original/IMG-20190630-WA0005.jpg?1744709158/"
+   width="200px" height="200px"/>
+   
+   </div>
+    <button class="joinme">Join me</button>
+    <p><em><a href="https://web.facebook.com/linah.kinya.7"> Check my facebook page</a></em></p>
+    <div>
+    <footer>This page was built by Lins Kins</footer>
+
+ <script>
+  let body = document.querySelector(".dark");
+
+function darktheme() {
+    if (body.classList.contains("dark")) {
+        body.classList.remove("dark");
+    } else {
+        body.classList.add("dark");
+    }
+}
+
+let themebutton = document.querySelector(".theme");
+themebutton.addEventListener("click", darktheme);
+    
+      </script>
+      
+    
+</body>
+</html>
